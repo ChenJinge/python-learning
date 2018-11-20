@@ -42,7 +42,6 @@ xiaoming = Person('Xiao Ming', 'Male', '1990-1-1', job='Student')
 print xiaoming.__name
 print xiaoming.job
 
-
 ## 类的属性与实例是一个 、实例的属性则x相互独立、当实例属性和类属性重名时，实例属性优先级高
 
 
@@ -55,4 +54,4 @@ print xiaoming.job
 ## 类的继承 复用已有的代码  父类 子类（派生类） super(object, self).__init__（）
 
 
-
+## 类 的多态 更类似于 java 的接口
