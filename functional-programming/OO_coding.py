@@ -28,7 +28,7 @@ print L2[2].name
 
 
 # python 中初始化实例
-# python 中访问限制 类似 java中 private protected public
+# python中访问限制 类似 java中 private protected public
 class Person(object):
     def __init__(self, name, gender, birth, **kw):
         self.name = name
@@ -52,7 +52,6 @@ print xiaoming.job
 
 
 # 类的继承 复用已有的代码  父类 子类（派生类） super(object, self).__init__（）
-
 
 # 类 的多态 更类似于 java 的接口，多重继承也说明了这一点
 
