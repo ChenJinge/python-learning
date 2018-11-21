@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
 
 
-## OO coding
-## 封装 继承 多态
-## 命名规范
+# OO coding
+# 封装 继承 多态
+# 命名规范
 
-## 类 实例
+# 类 实例
 class Person(object):
     pass
 
 
-## python 实例添加属性
+# python 实例添加属性
 p1 = Person()
 p1.name = 'Bart'
 
@@ -27,8 +27,8 @@ print L2[1].name
 print L2[2].name
 
 
-## python 中初始化实例
-## python中访问限制 类似 java中 private protected public
+# python 中初始化实例
+# python 中访问限制 类似 java中 private protected public
 class Person(object):
     def __init__(self, name, gender, birth, **kw):
         self.name = name
@@ -42,16 +42,26 @@ xiaoming = Person('Xiao Ming', 'Male', '1990-1-1', job='Student')
 print xiaoming.__name
 print xiaoming.job
 
-## 类的属性与实例是一个 、实例的属性则x相互独立、当实例属性和类属性重名时，实例属性优先级高
+# 类的属性与实例是一个 、实例的属性则x相互独立、当实例属性和类属性重名时，实例属性优先级高
 
 
-## 虽然私有属性无法从外部访问，但是，从类的内部是可以访问的
+# 虽然私有属性无法从外部访问，但是，从类的内部是可以访问的
 
 
-## python中方法也是属性，和属性类似，方法也分实例方法和类方法  也分私有方法 和 公共方法么？
+# python中方法也是属性，和属性类似，方法也分实例方法和类方法  也分私有方法 和 公共方法么？
 
 
-## 类的继承 复用已有的代码  父类 子类（派生类） super(object, self).__init__（）
+# 类的继承 复用已有的代码  父类 子类（派生类） super(object, self).__init__（）
 
 
-## 类 的多态 更类似于 java 的接口
+# 类 的多态 更类似于 java 的接口，多重继承也说明了这一点
+
+# python 中获取对象信息 类似java反射机制 type() dir() getattr() setattr()
+
+# python 魔术方法
+# python 特殊方法 __str__() 类似 toString
+# 实现特殊方法 关联性特殊方法
+# __str__()
+# __repr__()
+
+# 方法 可调用对象
