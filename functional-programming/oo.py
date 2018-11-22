@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-# OO coding
+# -*- coding: utf-8 -*-#
 
 # 封装 继承 多态
 # 命名规范
